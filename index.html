@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uday_mahale_web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <nav id="desktop-nav">
+      <div class="logo">Uday_</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav> 
+
+    <nav id="hamburger-nav">
+      <div class="logo">UDAY_</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    
+    <section id="home">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" class="Uday Mahale profile picture anim" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1 anim">Hello, I'm</p>
+        <h1 class="title anim">Uday Mahale</h1>
+        <p class="section__text__p2 anim">
+        Web Developer | Software Developer
+        </p>
+
+      </div>
+    </section>
+
+   
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="/assets/profile2.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            
+            <div class="text-container">
+              <p>
+                Hi I am Uday Mahale, a 21 year old, living in Jalgaon, Maharashtra.
+                I am a Computer Science Engineering Undergraduate, who is Passionate
+                about learning new things and technology to build something amazing
+                from my side.Just connect with me on LinkedIn. I am always excited
+                to meet new peoples like you , lets discuss over coffee.
+              </p>
+              <a href="/assets/Uday Mahale CV.pdf" class="btn" download>Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="skills-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Modern Web</h2>
+            <div class="article-container">
+              <article>
+                <li>ReactJS</li>
+              </article>
+              <article>
+                <li>Tailwind CSS</li>
+              </article>
+              <article>
+                <li>ViteJS</li>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Core Languages</h2>
+            <div class="article-container">
+              <article>
+                <li>C++</li>
+              </article>
+              <article>
+                <li>JAVA</li>
+              </article>
+              <article>
+                <li>JavaScript</li>
+              </article>
+              <article>
+                <li>C</li>
+              </article>
+              <article>
+                <li>HTML</li>
+              </article>
+              <article>
+                <li>CSS</li>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Interest</h2>
+            <div class="article-container">
+              <article>
+                <li>Innovations</li>
+              </article>
+              <article>
+                <li>Learning new technologies</li>
+              </article>
+              <article>
+                <li>Web Design</li>
+              </article>
+              <article>
+                <li>Traveling</li>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p> 
+      <h1 class="title_S">Connect with me</h1>
+      <p class="section__text__p4">Im always thrilled to engage in fantastic projects. Feel free to reach out, and we can chat over a cup of coffee.</p>
+      <div class="contact-info-upper-container">
+ 
+        <div id="socials-container">
+          
+          <img
+            src="./assets/instagram.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/'"
+          />
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/udaymahale'"
+            />
+            <img
+            src="./assets/email.png"
+            alt="My Email profile"
+            class="icon"
+            onclick="location.href='mailto:udaymahale30@gmail.com'"
+        />
+        
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <img src="/assets/nature.png" alt="Footer Image">
+      <p>Copyright &#169; 2023 Uday Mahale. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
